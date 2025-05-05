@@ -1,3 +1,67 @@
+```
+<main class="dashboard">
+  <!-- Repeat this section 6 times -->
+  <section class="dashboard-section">
+    <header class="section-header">
+      <h2 class="section-title">Section Title</h2>
+    </header>
+    <div class="card-grid">
+      <!-- 4 Cards -->
+      <article class="card">
+        <header class="card-header">
+          <h3 class="card-title">Card Title</h3>
+          <p class="card-description">Brief description of the card content.</p>
+        </header>
+        <footer class="card-footer">
+          <button class="btn-with-icon">
+            Learn More
+            <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L12 22M12 22L5 15M12 22L19 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </footer>
+      </article>
+      <!-- Repeat card 4 times -->
+    </div>
+  </section>
+</main>
+
+<article class="card">
+  <header class="card-header">
+    <h2 class="card-title">Discover the Future of Web Design</h2>
+    <p class="card-description">Explore innovative techniques and tools that are shaping the web.</p>
+  </header>
+  <footer class="card-footer">
+    <button class="btn-with-icon" type="button">
+      Learn More
+      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="16" height="16">
+        <path d="M12 2L12 22M12 22L5 15M12 22L19 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+```
+
+```
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-with-icon:hover {
+  background-color: var(--surface-3);
+  color: var(--pink-5);
+}
+
+.icon-arrow {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.btn-with-icon:hover .icon-arrow {
+  transform: translateX(4px);
+}
+
+```
+<br/>
+
 To create a **beautiful, modern, accessible, and minimalistic button** with an **animated border gradient** using **Open Props** and the **Cube CSS** methodology, we’ll combine semantic HTML, accessibility best practices, and utility-first CSS using Open Props for tokens and Cube CSS structure.
 
 ---
